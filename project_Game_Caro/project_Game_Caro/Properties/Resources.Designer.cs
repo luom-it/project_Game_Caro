@@ -73,36 +73,6 @@ namespace project_Game_Caro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap background {
-            get {
-                object obj = ResourceManager.GetObject("background", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap background1 {
-            get {
-                object obj = ResourceManager.GetObject("background1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap background2 {
-            get {
-                object obj = ResourceManager.GetObject("background2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap black {
             get {
                 object obj = ResourceManager.GetObject("black", resourceCulture);
@@ -113,9 +83,9 @@ namespace project_Game_Caro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap blur {
+        internal static System.Drawing.Bitmap cat3 {
             get {
-                object obj = ResourceManager.GetObject("blur", resourceCulture);
+                object obj = ResourceManager.GetObject("cat3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,9 +93,9 @@ namespace project_Game_Caro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap cathouse {
+        internal static System.Drawing.Bitmap cat5 {
             get {
-                object obj = ResourceManager.GetObject("cathouse", resourceCulture);
+                object obj = ResourceManager.GetObject("cat5", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -133,9 +103,9 @@ namespace project_Game_Caro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap home {
+        internal static System.Drawing.Bitmap co {
             get {
-                object obj = ResourceManager.GetObject("home", resourceCulture);
+                object obj = ResourceManager.GetObject("co", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -143,59 +113,9 @@ namespace project_Game_Caro.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap image_5 {
+        internal static System.Drawing.Bitmap may3 {
             get {
-                object obj = ResourceManager.GetObject("image 5", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap menu {
-            get {
-                object obj = ResourceManager.GetObject("menu", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap screen_2 {
-            get {
-                object obj = ResourceManager.GetObject("screen-2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2024_09_27_152300_1 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2024-09-27 152300 1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2024_09_27_152521_1 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2024-09-27 152521 1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Screenshot_2024_09_27_152933_1 {
-            get {
-                object obj = ResourceManager.GetObject("Screenshot 2024-09-27 152933 1", resourceCulture);
+                object obj = ResourceManager.GetObject("may3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,16 +126,6 @@ namespace project_Game_Caro.Properties {
         internal static System.Drawing.Bitmap white {
             get {
                 object obj = ResourceManager.GetObject("white", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap wooden {
-            get {
-                object obj = ResourceManager.GetObject("wooden", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -1,9 +1,14 @@
-﻿using System;
+﻿using project_Game_Caro.Layout;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 namespace project_Game_Caro
 {
     public partial class Start : Form
@@ -11,60 +16,80 @@ namespace project_Game_Caro
         public Start()
         {
             InitializeComponent();
-            this.DoubleBuffered = true; // Kích hoạt Double Buffering cho Form
-            //CreateBlurOverlay();
-            cstbtnPlay.MouseHover += customButton_MouseHover;
-            cstbtnPlayWithFiriend.MouseHover += customButton_MouseHover;
-            cstbtnExit.MouseHover += customButton_MouseHover;
+            LoadGif();
+            
+            this.DoubleBuffered = true;
+            panel2.GetType().GetProperty("DoubleBuffered", System.Reflection.BindingFlags.Instance | System.Reflection.BindingFlags.NonPublic).SetValue(panel2, true, null);
+            cstbtnPlay.MouseEnter += cstbtnStart_MouseEnter;
+            cstbtnPlay2.MouseEnter += cstbtnStart_MouseEnter;
+            cstbtnExit.MouseEnter += cstbtnStart_MouseEnter;
+            cstbtnPlay.MouseLeave += cstbtnStart_MouseLeave;
+            cstbtnPlay2.MouseLeave += cstbtnStart_MouseLeave;
+            cstbtnExit.MouseLeave += cstbtnStart_MouseLeave;
 
-            cstbtnPlay.MouseLeave += customButton_MouseLeave;
-            cstbtnPlayWithFiriend.MouseLeave += customButton_MouseLeave;
-            cstbtnExit.MouseLeave += customButton_MouseLeave;
+            cstbtnPlay.Click += CstbtnPlay_Click;
+            cstbtnPlay2.Click += CstbtnPlay2_Click;
+            cstbtnExit.Click += CstbtnExit_Click;
+
         }
 
-        private void customButton1_Click(object sender, EventArgs e)
+        private void CstbtnExit_Click(object? sender, EventArgs e)
+        {
+            this.Close();
+            throw new NotImplementedException();
+        }
+
+        private void CstbtnPlay2_Click(object? sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void CstbtnPlay_Click(object? sender, EventArgs e)
         {
             this.Hide();
-            Form2 frm = new Form2();
-            frm.ShowDialog();
+            GameMain main = new GameMain();
+            main.Show();
+            throw new NotImplementedException();
+        }
 
-        }
-        
-        private void customButton_MouseHover(object sender, EventArgs e)
-        {
-            Button hoveredButton = sender as Button;
-            if (hoveredButton != null)
-            {
-                hoveredButton.ForeColor = Color.FromArgb(0, 130, 62, 62); // Màu khi hover
-            }
-        }
-        private void customButton_MouseLeave(object sender, EventArgs e) 
+        //private void panel2_Paint(object sender, PaintEventArgs e)
+        //{
+
+        //}
+        private void cstbtnStart_MouseEnter(object sender, EventArgs e)
         {
             Button leavedButton = sender as Button;
             if (leavedButton != null)
             {
-                leavedButton.ForeColor = Color.FromArgb(160, 125, 125); // Màu khi hover
+                leavedButton.ForeColor = Color.DodgerBlue; // Màu khi hover
+            }
+        }
+        private void cstbtnStart_MouseLeave(object sender, EventArgs e)
+        {
+            Button leavedButton = sender as Button;
+            if (leavedButton != null)
+            {
+                leavedButton.ForeColor = Color.SkyBlue; // Màu khi hover
             }
         }
 
-        private void customButton2_Click(object sender, EventArgs e)
-        {
-
-        }
-        private void customButton3_Click(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
-        
-
-        private void Start_Load(object sender, EventArgs e)
+        private void panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
 
+        }
+        private void LoadGif()
+        {
+            // Tải file GIF từ Resources
+            pictureBox4.Image = Properties.Resources.cat3;
+            pictureBox2.Image = Properties.Resources._6ee8071fdcbbc3f6a0190808013aaa47; // Thay 'YourGifFileName' bằng tên file GIF bạn đã thêm vào Resources
+        }
         
     }
+
+
 }

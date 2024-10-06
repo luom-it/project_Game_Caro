@@ -6,25 +6,15 @@ using System.Threading.Tasks;
 
 namespace project_Game_Caro
 {
-    internal class Cons
+    public class Cons
     {
-        private static int chessWidth = 60;
-        private static int chessHeight = 60;
-        private static int chessBoardWidth=10;
-        private static int chessBoardHeight=10;
+        public static int CHESS_WIDTH = 40;
+        public static int CHESS_HEIGHT = 40;
 
-        public static int ChessWidth { get => chessWidth; set => chessWidth = value; }
-        public static int ChessHeight { get => chessHeight; set => chessHeight = value; }
-
-        public static int ChessBoardWidth
-        {
-            get { return chessBoardWidth; }
-            set { chessBoardWidth = value; }
-        }
-        public static int ChessBoardHeight
-        {
-            get { return chessBoardHeight; }
-            set { chessBoardHeight = value; }
-        }
+        public static int CHESS_BOARD_WIDTH = 50;
+        public static int CHESS_BOARD_HEIGHT = 50;
+        public static int COOL_DOWN_STEP = 100;
+        public static int COOL_DOWN_TIME = 10000;
+        public static int COOL_DOWN_INTERVAL = 100;
     }
 }
