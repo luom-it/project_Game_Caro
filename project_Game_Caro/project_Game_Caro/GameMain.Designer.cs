@@ -31,24 +31,25 @@
             components = new System.ComponentModel.Container();
             panel3 = new Panel();
             btnLAN = new Button();
-            txbIP = new TextBox();
-            pctbMark = new PictureBox();
-            prcbCoolDown = new ProgressBar();
-            txbPlayerName = new TextBox();
-            tmCoolDown = new System.Windows.Forms.Timer(components);
+            txbIP1 = new TextBox();
+            pctbMark1 = new PictureBox();
+            prcbCoolDown1 = new ProgressBar();
+            txbPlayerName1 = new TextBox();
+            tmCoolDown1 = new System.Windows.Forms.Timer(components);
+            tmCoolDown2 = new System.Windows.Forms.Timer(components);
             panel1 = new Panel();
             pnlChessBoard = new Panel();
             panel2 = new Panel();
             button1 = new Button();
-            textBox1 = new TextBox();
-            pictureBox1 = new PictureBox();
-            progressBar1 = new ProgressBar();
-            textBox2 = new TextBox();
+            txbIP2 = new TextBox();
+            pctbMark2 = new PictureBox();
+            prcbCoolDown2 = new ProgressBar();
+            txbPlayerName2 = new TextBox();
             panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pctbMark).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pctbMark1).BeginInit();
             panel1.SuspendLayout();
             panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pctbMark2).BeginInit();
             SuspendLayout();
             // 
             // panel3
@@ -56,10 +57,10 @@
             panel3.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             panel3.BackColor = SystemColors.Control;
             panel3.Controls.Add(btnLAN);
-            panel3.Controls.Add(txbIP);
-            panel3.Controls.Add(pctbMark);
-            panel3.Controls.Add(prcbCoolDown);
-            panel3.Controls.Add(txbPlayerName);
+            panel3.Controls.Add(txbIP1);
+            panel3.Controls.Add(pctbMark1);
+            panel3.Controls.Add(prcbCoolDown1);
+            panel3.Controls.Add(txbPlayerName1);
             panel3.Location = new Point(1010, 80);
             panel3.Margin = new Padding(0);
             panel3.Name = "panel3";
@@ -76,46 +77,46 @@
             btnLAN.Text = "LAN";
             btnLAN.UseVisualStyleBackColor = true;
             // 
-            // txbIP
+            // txbIP1
             // 
-            txbIP.Location = new Point(48, 132);
-            txbIP.Margin = new Padding(4, 5, 4, 5);
-            txbIP.Name = "txbIP";
-            txbIP.Size = new Size(250, 27);
-            txbIP.TabIndex = 3;
-            txbIP.Text = "127.0.0.1";
+            txbIP1.Location = new Point(48, 132);
+            txbIP1.Margin = new Padding(4, 5, 4, 5);
+            txbIP1.Name = "txbIP1";
+            txbIP1.Size = new Size(250, 27);
+            txbIP1.TabIndex = 3;
+            txbIP1.Text = "127.0.0.1";
             // 
-            // pctbMark
+            // pctbMark1
             // 
-            pctbMark.BackColor = SystemColors.Control;
-            pctbMark.Location = new Point(89, 239);
-            pctbMark.Margin = new Padding(4, 5, 4, 5);
-            pctbMark.Name = "pctbMark";
-            pctbMark.Size = new Size(156, 160);
-            pctbMark.SizeMode = PictureBoxSizeMode.StretchImage;
-            pctbMark.TabIndex = 2;
-            pctbMark.TabStop = false;
+            pctbMark1.BackColor = SystemColors.Control;
+            pctbMark1.Location = new Point(89, 239);
+            pctbMark1.Margin = new Padding(4, 5, 4, 5);
+            pctbMark1.Name = "pctbMark1";
+            pctbMark1.Size = new Size(156, 160);
+            pctbMark1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pctbMark1.TabIndex = 2;
+            pctbMark1.TabStop = false;
             // 
-            // prcbCoolDown
+            // prcbCoolDown1
             // 
-            prcbCoolDown.Location = new Point(48, 75);
-            prcbCoolDown.Margin = new Padding(4, 5, 4, 5);
-            prcbCoolDown.Name = "prcbCoolDown";
-            prcbCoolDown.Size = new Size(250, 35);
-            prcbCoolDown.TabIndex = 1;
+            prcbCoolDown1.Location = new Point(48, 75);
+            prcbCoolDown1.Margin = new Padding(4, 5, 4, 5);
+            prcbCoolDown1.Name = "prcbCoolDown1";
+            prcbCoolDown1.Size = new Size(250, 35);
+            prcbCoolDown1.TabIndex = 1;
             // 
-            // txbPlayerName
+            // txbPlayerName1
             // 
-            txbPlayerName.Location = new Point(48, 29);
-            txbPlayerName.Margin = new Padding(4, 5, 4, 5);
-            txbPlayerName.Name = "txbPlayerName";
-            txbPlayerName.ReadOnly = true;
-            txbPlayerName.Size = new Size(250, 27);
-            txbPlayerName.TabIndex = 0;
+            txbPlayerName1.Location = new Point(48, 29);
+            txbPlayerName1.Margin = new Padding(4, 5, 4, 5);
+            txbPlayerName1.Name = "txbPlayerName1";
+            txbPlayerName1.ReadOnly = true;
+            txbPlayerName1.Size = new Size(250, 27);
+            txbPlayerName1.TabIndex = 0;
             // 
             // tmCoolDown
             // 
-            tmCoolDown.Tick += tmCoolDown_Tick;
+            tmCoolDown1.Tick += tmCoolDown1_Tick;
             // 
             // panel1
             // 
@@ -140,10 +141,10 @@
             // 
             panel2.BackColor = SystemColors.Control;
             panel2.Controls.Add(button1);
-            panel2.Controls.Add(textBox1);
-            panel2.Controls.Add(pictureBox1);
-            panel2.Controls.Add(progressBar1);
-            panel2.Controls.Add(textBox2);
+            panel2.Controls.Add(txbIP2);
+            panel2.Controls.Add(pctbMark2);
+            panel2.Controls.Add(prcbCoolDown2);
+            panel2.Controls.Add(txbPlayerName2);
             panel2.Location = new Point(9, 80);
             panel2.Margin = new Padding(0);
             panel2.Name = "panel2";
@@ -160,43 +161,48 @@
             button1.Text = "LAN";
             button1.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // txbIP2
             // 
-            textBox1.Location = new Point(48, 132);
-            textBox1.Margin = new Padding(4, 5, 4, 5);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(250, 27);
-            textBox1.TabIndex = 3;
-            textBox1.Text = "127.0.0.1";
+            txbIP2.Location = new Point(48, 132);
+            txbIP2.Margin = new Padding(4, 5, 4, 5);
+            txbIP2.Name = "txbIP2";
+            txbIP2.Size = new Size(250, 27);
+            txbIP2.TabIndex = 3;
+            txbIP2.Text = "127.0.0.1";
             // 
-            // pictureBox1
+            // pctbMark2
             // 
-            pictureBox1.BackColor = SystemColors.Control;
-            pictureBox1.Location = new Point(89, 239);
-            pictureBox1.Margin = new Padding(4, 5, 4, 5);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(156, 160);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 2;
-            pictureBox1.TabStop = false;
+            pctbMark2.BackColor = SystemColors.Control;
+            pctbMark2.Location = new Point(89, 239);
+            pctbMark2.Margin = new Padding(4, 5, 4, 5);
+            pctbMark2.Name = "pctbMark2";
+            pctbMark2.Size = new Size(156, 160);
+            pctbMark2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pctbMark2.TabIndex = 2;
+            pctbMark2.TabStop = false;
             // 
-            // progressBar1
+            // prcbCoolDown2
             // 
-            progressBar1.Location = new Point(48, 75);
-            progressBar1.Margin = new Padding(4, 5, 4, 5);
-            progressBar1.Name = "progressBar1";
-            progressBar1.Size = new Size(250, 35);
-            progressBar1.TabIndex = 1;
+            prcbCoolDown2.Location = new Point(48, 75);
+            prcbCoolDown2.Margin = new Padding(4, 5, 4, 5);
+            prcbCoolDown2.Name = "prcbCoolDown2";
+            prcbCoolDown2.Size = new Size(250, 35);
+            prcbCoolDown2.TabIndex = 1;
             // 
-            // textBox2
+            // txbPlayerName2
             // 
-            textBox2.Location = new Point(48, 29);
-            textBox2.Margin = new Padding(4, 5, 4, 5);
-            textBox2.Name = "textBox2";
-            textBox2.ReadOnly = true;
-            textBox2.Size = new Size(250, 27);
-            textBox2.TabIndex = 0;
+            txbPlayerName2.Location = new Point(48, 29);
+            txbPlayerName2.Margin = new Padding(4, 5, 4, 5);
+            txbPlayerName2.Name = "txbPlayerName2";
+            txbPlayerName2.ReadOnly = true;
+            txbPlayerName2.Size = new Size(250, 27);
+            txbPlayerName2.TabIndex = 0;
             // 
+            //
+            //
+            tmCoolDown2.Tick += tmCoolDown2_Tick;
+
+
             // GameMain
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -210,30 +216,31 @@
             Text = "Game Caro LAN";
             panel3.ResumeLayout(false);
             panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pctbMark).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pctbMark1).EndInit();
             panel1.ResumeLayout(false);
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pctbMark2).EndInit();
             ResumeLayout(false);
         }
 
         #endregion
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Button btnLAN;
-        private System.Windows.Forms.TextBox txbIP;
-        private System.Windows.Forms.PictureBox pctbMark;
-        private System.Windows.Forms.ProgressBar prcbCoolDown;
-        private System.Windows.Forms.TextBox txbPlayerName;
-        private System.Windows.Forms.Timer tmCoolDown;
+        private System.Windows.Forms.TextBox txbIP1;
+        private System.Windows.Forms.PictureBox pctbMark1;
+        private System.Windows.Forms.ProgressBar prcbCoolDown1;
+        private System.Windows.Forms.TextBox txbPlayerName1;
+        private System.Windows.Forms.Timer tmCoolDown1;
+        private System.Windows.Forms.Timer tmCoolDown2;
         private Panel panel1;
         private Panel pnlChessBoard;
         private Panel panel2;
         private Button button1;
-        private TextBox textBox1;
-        private PictureBox pictureBox1;
-        private ProgressBar progressBar1;
-        private TextBox textBox2;
+        private TextBox txbIP2;
+        private PictureBox pctbMark2;
+        private ProgressBar prcbCoolDown2;
+        private TextBox txbPlayerName2;
     }
 }
 

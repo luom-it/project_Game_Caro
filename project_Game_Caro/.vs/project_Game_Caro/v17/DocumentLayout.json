@@ -3,40 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|c:\\users\\nhinguyen\\source\\repos\\project_game_caro\\project_game_caro\\project_game_caro\\chessboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|solutionrelative:project_game_caro\\chessboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|c:\\users\\nhinguyen\\source\\repos\\project_game_caro\\project_game_caro\\project_game_caro\\gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|solutionrelative:project_game_caro\\gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|c:\\users\\nhinguyen\\source\\repos\\project_game_caro\\project_game_caro\\project_game_caro\\gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|solutionrelative:project_game_caro\\gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|c:\\users\\nhinguyen\\source\\repos\\project_game_caro\\project_game_caro\\project_game_caro\\chessboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|solutionrelative:project_game_caro\\chessboardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|c:\\users\\nhinguyen\\source\\repos\\project_game_caro\\project_game_caro\\project_game_caro\\gamemain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|solutionrelative:project_game_caro\\gamemain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|c:\\users\\nhinguyen\\source\\repos\\project_game_caro\\project_game_caro\\project_game_caro\\socketdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|solutionrelative:project_game_caro\\socketdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|c:\\users\\nhinguyen\\source\\repos\\project_game_caro\\project_game_caro\\project_game_caro\\contain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|solutionrelative:project_game_caro\\contain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|c:\\users\\nhinguyen\\source\\repos\\project_game_caro\\project_game_caro\\project_game_caro\\socketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|solutionrelative:project_game_caro\\socketmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|c:\\users\\nhinguyen\\source\\repos\\project_game_caro\\project_game_caro\\project_game_caro\\chess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|solutionrelative:project_game_caro\\chess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|c:\\users\\nhinguyen\\source\\repos\\project_game_caro\\project_game_caro\\project_game_caro\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|solutionrelative:project_game_caro\\start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|c:\\users\\nhinguyen\\source\\repos\\project_game_caro\\project_game_caro\\project_game_caro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|solutionrelative:project_game_caro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|c:\\users\\nhinguyen\\source\\repos\\project_game_caro\\project_game_caro\\project_game_caro\\cons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|solutionrelative:project_game_caro\\cons.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|c:\\users\\nhinguyen\\source\\repos\\project_game_caro\\project_game_caro\\project_game_caro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|solutionrelative:project_game_caro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_game_caro\\gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{E27081BC-E177-4B11-BECC-2CF14DC730E1}|project_Game_Caro\\project_Game_Caro.csproj|solutionrelative:project_game_caro\\gamemain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,123 +49,89 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Chess.cs",
-              "DocumentMoniker": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\Chess.cs",
-              "RelativeDocumentMoniker": "project_Game_Caro\\Chess.cs",
-              "ToolTip": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\Chess.cs",
-              "RelativeToolTip": "project_Game_Caro\\Chess.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "SocketManager.cs",
+              "DocumentMoniker": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\SocketManager.cs",
+              "RelativeDocumentMoniker": "project_Game_Caro\\SocketManager.cs",
+              "ToolTip": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\SocketManager.cs",
+              "RelativeToolTip": "project_Game_Caro\\SocketManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:57:05.641Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-09T14:06:33.601Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GameMain.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\GameMain.cs",
-              "RelativeDocumentMoniker": "project_Game_Caro\\GameMain.cs",
-              "ToolTip": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\GameMain.cs [Design]",
-              "RelativeToolTip": "project_Game_Caro\\GameMain.cs [Design]",
+              "Title": "SocketData.cs",
+              "DocumentMoniker": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\SocketData.cs",
+              "RelativeDocumentMoniker": "project_Game_Caro\\SocketData.cs",
+              "ToolTip": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\SocketData.cs",
+              "RelativeToolTip": "project_Game_Caro\\SocketData.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADMAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:34:35.823Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-10-09T14:06:25.638Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Contain.cs",
-              "DocumentMoniker": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\Contain.cs",
-              "RelativeDocumentMoniker": "project_Game_Caro\\Contain.cs",
-              "ToolTip": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\Contain.cs",
-              "RelativeToolTip": "project_Game_Caro\\Contain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:32:25.482Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "Cons.cs",
               "DocumentMoniker": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\Cons.cs",
               "RelativeDocumentMoniker": "project_Game_Caro\\Cons.cs",
               "ToolTip": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\Cons.cs",
               "RelativeToolTip": "project_Game_Caro\\Cons.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:18:51.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-06T08:18:51.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ChessBoardManager.cs",
               "DocumentMoniker": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\ChessBoardManager.cs",
               "RelativeDocumentMoniker": "project_Game_Caro\\ChessBoardManager.cs",
               "ToolTip": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\ChessBoardManager.cs",
               "RelativeToolTip": "project_Game_Caro\\ChessBoardManager.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAswD4AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAkwAgAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T08:18:36.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "GameMain.cs",
               "DocumentMoniker": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\GameMain.cs",
               "RelativeDocumentMoniker": "project_Game_Caro\\GameMain.cs",
               "ToolTip": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\GameMain.cs",
               "RelativeToolTip": "project_Game_Caro\\GameMain.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABVAAAAAAAAAA==",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwGEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T08:16:22.348Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Start.cs",
-              "DocumentMoniker": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\Start.cs",
-              "RelativeDocumentMoniker": "project_Game_Caro\\Start.cs",
-              "ToolTip": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\Start.cs",
-              "RelativeToolTip": "project_Game_Caro\\Start.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T08:17:17.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameMain.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\GameMain.Designer.cs",
-              "RelativeDocumentMoniker": "project_Game_Caro\\GameMain.Designer.cs",
-              "ToolTip": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\GameMain.Designer.cs",
-              "RelativeToolTip": "project_Game_Caro\\GameMain.Designer.cs",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAswNsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-06T07:51:29.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\Program.cs",
               "RelativeDocumentMoniker": "project_Game_Caro\\Program.cs",
               "ToolTip": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\Program.cs",
               "RelativeToolTip": "project_Game_Caro\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAMwBAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-06T07:25:29.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GameMain.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\GameMain.cs",
+              "RelativeDocumentMoniker": "project_Game_Caro\\GameMain.cs",
+              "ToolTip": "C:\\Users\\NhiNguyen\\source\\repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\GameMain.cs [Design]",
+              "RelativeToolTip": "project_Game_Caro\\GameMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T08:34:35.823Z"
             }
           ]
         }

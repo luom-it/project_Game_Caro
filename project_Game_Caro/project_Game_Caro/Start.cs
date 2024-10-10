@@ -13,6 +13,7 @@ namespace project_Game_Caro
 {
     public partial class Start : Form
     {
+        private GameMain gameMain;
         public Start()
         {
             InitializeComponent();
@@ -41,14 +42,16 @@ namespace project_Game_Caro
 
         private void CstbtnPlay2_Click(object? sender, EventArgs e)
         {
+            gameMain = new GameMain(false);
+            gameMain.ShowDialog();
             throw new NotImplementedException();
         }
 
         private void CstbtnPlay_Click(object? sender, EventArgs e)
         {
             this.Hide();
-            GameMain main = new GameMain();
-            main.Show();
+            gameMain = new GameMain();
+            gameMain.ShowDialog();
             throw new NotImplementedException();
         }
 
