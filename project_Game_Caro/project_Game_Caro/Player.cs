@@ -1,34 +1,25 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace project_Game_Caro
 {
-    public class Player
+    class Player
     {
-        private string name;    // Ctrl + R + E
+        private string name;
+        private Image avatar;
+        private Image symbol;
+        public string Name { get => name; set => name = value; }
+        public Image Avatar { get => avatar; set => avatar = value; }
+        public Image Symbol { get => symbol; set => symbol = value; }
 
-        public string Name
-        {
-            get { return name; }
-            set { name = value; }
-        }
-
-        private Image mark;
-
-        public Image Mark
-        {
-            get { return mark; }
-            set { mark = value; }
-        }
-
-        public Player(string name, Image mark)
+        public Player(string name, Image avatar, Image symbol)
         {
             this.Name = name;
-            this.Mark = mark;
+            this.Avatar = avatar;
+            this.Symbol = symbol;
         }
     }
 }

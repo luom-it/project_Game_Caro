@@ -110,7 +110,7 @@
             cstbtnExit.FlatStyle = FlatStyle.Flat;
             cstbtnExit.Font = new Font("Snap ITC", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             cstbtnExit.ForeColor = Color.SkyBlue;
-            cstbtnExit.Location = new Point(167, 150);
+            cstbtnExit.Location = new Point(159, 150);
             cstbtnExit.Name = "cstbtnExit";
             cstbtnExit.Size = new Size(130, 50);
             cstbtnExit.TabIndex = 2;
@@ -133,7 +133,7 @@
             cstbtnPlay2.Name = "cstbtnPlay2";
             cstbtnPlay2.Size = new Size(403, 65);
             cstbtnPlay2.TabIndex = 1;
-            cstbtnPlay2.Text = "Play with friends";
+            cstbtnPlay2.Text = "2 Player";
             cstbtnPlay2.UseVisualStyleBackColor = false;
             // 
             // cstbtnPlay
@@ -148,11 +148,11 @@
             cstbtnPlay.FlatStyle = FlatStyle.Flat;
             cstbtnPlay.Font = new Font("Snap ITC", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             cstbtnPlay.ForeColor = Color.SkyBlue;
-            cstbtnPlay.Location = new Point(173, 18);
+            cstbtnPlay.Location = new Point(123, 18);
             cstbtnPlay.Name = "cstbtnPlay";
-            cstbtnPlay.Size = new Size(124, 55);
+            cstbtnPlay.Size = new Size(232, 55);
             cstbtnPlay.TabIndex = 0;
-            cstbtnPlay.Text = "Play";
+            cstbtnPlay.Text = "1 Player";
             cstbtnPlay.UseVisualStyleBackColor = false;
             // 
             // pictureBox2

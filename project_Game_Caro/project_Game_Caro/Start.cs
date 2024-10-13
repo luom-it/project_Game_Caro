@@ -13,7 +13,7 @@ namespace project_Game_Caro
 {
     public partial class Start : Form
     {
-        private GameMain gameMain;
+       
         public Start()
         {
             InitializeComponent();
@@ -40,20 +40,22 @@ namespace project_Game_Caro
             throw new NotImplementedException();
         }
 
-        private void CstbtnPlay2_Click(object? sender, EventArgs e)
-        {
-            gameMain = new GameMain(false);
-            gameMain.ShowDialog();
-            throw new NotImplementedException();
-        }
-
-        private void CstbtnPlay_Click(object? sender, EventArgs e)
+        private void CstbtnPlay2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            gameMain = new GameMain();
-            gameMain.ShowDialog();
-            throw new NotImplementedException();
+            GameCaro gameCaro = new GameCaro(2);
+            DialogResult result = gameCaro.ShowDialog();  // Wait until GameCaro form is closed
+            this.Show();  // Show the main form after GameCaro is closed
         }
+
+        private void CstbtnPlay_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            GameCaro gameCaro = new GameCaro(1);
+            DialogResult result = gameCaro.ShowDialog();  // Wait until GameCaro form is closed
+            this.Show();  // Show the main form after GameCaro is closed
+        }
+
 
         //private void panel2_Paint(object sender, PaintEventArgs e)
         //{
