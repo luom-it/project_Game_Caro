@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Start));
             panel1 = new Panel();
             label1 = new Label();
             pictureBox4 = new PictureBox();
@@ -186,8 +187,9 @@
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(870, 501);
             Controls.Add(panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "Start";
-            Text = "Start";
+            Text = "Start Game Caro";
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();

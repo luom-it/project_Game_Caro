@@ -16,7 +16,7 @@ namespace project_Game_Caro
         #region Properties
         GameBoard board;
         SocketManager socket;
-        
+
         string PlayerName;
         int game;
 
@@ -26,7 +26,7 @@ namespace project_Game_Caro
             InitializeComponent();
             Control.CheckForIllegalCrossThreadCalls = false;
             this.game = game;
-            board = new GameBoard(pn_GameBoard, txt_PlayerName, pb_Avatar,game);
+            board = new GameBoard(pn_GameBoard, txt_PlayerName, pb_Avatar, game);
             board.PlayerClicked += Board_PlayerClicked;
             board.GameOver += Board_GameOver;
 
@@ -77,11 +77,13 @@ namespace project_Game_Caro
 
             tm_CountDown.Stop();
             pn_GameBoard.Enabled = false;
+            
+
         }
 
         private void GameCaro_Load(object sender, EventArgs e)
         {
-            lbl_About.Text = "Tic Tac Toe project in\nC# WinForms\n-- ♦ ♦ ♦ --\nWritten by: Quân Đặng";
+            lbl_About.Text = "Nhóm 4 cùng thực hiện dự án Game Caro";
             tm_About.Enabled = true;
             if (game == 1)
             {
@@ -99,6 +101,7 @@ namespace project_Game_Caro
             if (MessageBox.Show("Bạn có chắc muốn thoát không", "Thông báo", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != System.Windows.Forms.DialogResult.Yes)
             {
                 e.Cancel = true;
+                Close();
             }
             else
             {
@@ -246,7 +249,7 @@ namespace project_Game_Caro
                 catch { }
 
                 socket.CloseConnect();
-                //MessageBox.Show("Đã ngắt kết nối mạng LAN", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Đã ngắt kết nối mạng LAN", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
             board.PlayMode = 2;
@@ -266,7 +269,7 @@ namespace project_Game_Caro
                     catch { }
 
                     socket.CloseConnect();
-                    //MessageBox.Show("Đã ngắt kết nối mạng LAN", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Đã ngắt kết nối mạng LAN", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
 
@@ -453,6 +456,11 @@ namespace project_Game_Caro
         #endregion
 
         private void pn_GameBoard_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txt_Chat_TextChanged(object sender, EventArgs e)
         {
 
         }
