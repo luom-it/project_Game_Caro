@@ -284,6 +284,7 @@
             btn_AI.TabIndex = 3;
             btn_AI.Text = "Player vs Com";
             btn_AI.UseVisualStyleBackColor = false;
+            btn_AI.Visible = false;
             btn_AI.Click += Btn_AI_Click;
             // 
             // pictureBox1
@@ -313,6 +314,7 @@
             btn_SameCom.TabIndex = 3;
             btn_SameCom.Text = "2 Players / Com";
             btn_SameCom.UseVisualStyleBackColor = false;
+            btn_SameCom.Visible = false;
             btn_SameCom.Click += Btn_SameCom_Click;
             // 
             // btn_LAN
