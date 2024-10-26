@@ -331,6 +331,7 @@
             btn_LAN.TabIndex = 3;
             btn_LAN.Text = "2 Players in LAN";
             btn_LAN.UseVisualStyleBackColor = false;
+            btn_LAN.Visible = false;
             btn_LAN.Click += Btn_LAN_Click;
             // 
             // txt_Chat
