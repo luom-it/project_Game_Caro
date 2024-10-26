@@ -236,6 +236,7 @@
             btn_Undo.TabIndex = 3;
             btn_Undo.Text = "Undo";
             btn_Undo.UseVisualStyleBackColor = false;
+            btn_Undo.Visible = false;
             btn_Undo.Click += Btn_Undo_Click;
             // 
             // pgb_CountDown
@@ -264,6 +265,7 @@
             btn_Redo.TabIndex = 3;
             btn_Redo.Text = "Redo";
             btn_Redo.UseVisualStyleBackColor = false;
+            btn_Redo.Visible = false;
             btn_Redo.Click += Btn_Redo_Click;
             // 
             // btn_AI
@@ -388,6 +390,7 @@
             menuStrip.Size = new Size(1387, 30);
             menuStrip.TabIndex = 5;
             menuStrip.Text = "menuStrip";
+            menuStrip.Visible = false;
             // 
             // menuToolStripMenuItem
             // 
@@ -401,7 +404,7 @@
             // 
             newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
             newGameToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.N;
-            newGameToolStripMenuItem.Size = new Size(224, 26);
+            newGameToolStripMenuItem.Size = new Size(218, 26);
             newGameToolStripMenuItem.Text = "&New Game";
             newGameToolStripMenuItem.Click += NewGameToolStripMenuItem_Click;
             // 
@@ -409,7 +412,7 @@
             // 
             undoToolStripMenuItem.Name = "undoToolStripMenuItem";
             undoToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.Z;
-            undoToolStripMenuItem.Size = new Size(224, 26);
+            undoToolStripMenuItem.Size = new Size(218, 26);
             undoToolStripMenuItem.Text = "&Undo";
             undoToolStripMenuItem.Click += UndoToolStripMenuItem_Click;
             // 
@@ -417,20 +420,20 @@
             // 
             redoToolStripMenuItem.Name = "redoToolStripMenuItem";
             redoToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.Y;
-            redoToolStripMenuItem.Size = new Size(224, 26);
+            redoToolStripMenuItem.Size = new Size(218, 26);
             redoToolStripMenuItem.Text = "&Redo";
             redoToolStripMenuItem.Click += RedoToolStripMenuItem_Click;
             // 
             // toolStripSeparator1
             // 
             toolStripSeparator1.Name = "toolStripSeparator1";
-            toolStripSeparator1.Size = new Size(221, 6);
+            toolStripSeparator1.Size = new Size(215, 6);
             // 
             // quitToolStripMenuItem
             // 
             quitToolStripMenuItem.Name = "quitToolStripMenuItem";
             quitToolStripMenuItem.ShortcutKeys = Keys.Alt | Keys.F4;
-            quitToolStripMenuItem.Size = new Size(224, 26);
+            quitToolStripMenuItem.Size = new Size(218, 26);
             quitToolStripMenuItem.Text = "&Quit";
             quitToolStripMenuItem.Click += QuitToolStripMenuItem_Click;
             // 
@@ -445,7 +448,7 @@
             // 
             playerToolStripMenuItem2.DropDownItems.AddRange(new ToolStripItem[] { ViaLANToolStripMenuItem, SameComToolStripMenuItem });
             playerToolStripMenuItem2.Name = "playerToolStripMenuItem2";
-            playerToolStripMenuItem2.Size = new Size(224, 26);
+            playerToolStripMenuItem2.Size = new Size(150, 26);
             playerToolStripMenuItem2.Text = "2 Players";
             // 
             // ViaLANToolStripMenuItem
@@ -465,19 +468,19 @@
             // playerToolStripMenuItem1
             // 
             playerToolStripMenuItem1.Name = "playerToolStripMenuItem1";
-            playerToolStripMenuItem1.Size = new Size(224, 26);
+            playerToolStripMenuItem1.Size = new Size(150, 26);
             playerToolStripMenuItem1.Text = "1 Player";
             playerToolStripMenuItem1.Click += PlayerToolStripMenuItem1_Click;
             // 
             // toolStripSeparator2
             // 
             toolStripSeparator2.Name = "toolStripSeparator2";
-            toolStripSeparator2.Size = new Size(221, 6);
+            toolStripSeparator2.Size = new Size(147, 6);
             // 
             // settingsToolStripMenuItem
             // 
             settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            settingsToolStripMenuItem.Size = new Size(224, 26);
+            settingsToolStripMenuItem.Size = new Size(150, 26);
             settingsToolStripMenuItem.Text = "Settings";
             settingsToolStripMenuItem.Click += SettingsToolStripMenuItem_Click;
             // 
@@ -492,26 +495,26 @@
             // 
             howToPlayToolStripMenuItem.Name = "howToPlayToolStripMenuItem";
             howToPlayToolStripMenuItem.ShortcutKeys = Keys.F1;
-            howToPlayToolStripMenuItem.Size = new Size(224, 26);
+            howToPlayToolStripMenuItem.Size = new Size(202, 26);
             howToPlayToolStripMenuItem.Text = "How to play";
             howToPlayToolStripMenuItem.Click += HowToPlayToolStripMenuItem_Click;
             // 
             // contactMeToolStripMenuItem
             // 
             contactMeToolStripMenuItem.Name = "contactMeToolStripMenuItem";
-            contactMeToolStripMenuItem.Size = new Size(224, 26);
+            contactMeToolStripMenuItem.Size = new Size(202, 26);
             contactMeToolStripMenuItem.Text = "Contact me";
             contactMeToolStripMenuItem.Click += ContactMeToolStripMenuItem_Click;
             // 
             // toolStripSeparator3
             // 
             toolStripSeparator3.Name = "toolStripSeparator3";
-            toolStripSeparator3.Size = new Size(221, 6);
+            toolStripSeparator3.Size = new Size(199, 6);
             // 
             // aboutThisGameToolStripMenuItem
             // 
             aboutThisGameToolStripMenuItem.Name = "aboutThisGameToolStripMenuItem";
-            aboutThisGameToolStripMenuItem.Size = new Size(224, 26);
+            aboutThisGameToolStripMenuItem.Size = new Size(202, 26);
             aboutThisGameToolStripMenuItem.Text = "About this game";
             aboutThisGameToolStripMenuItem.Click += AboutThisGameToolStripMenuItem_Click;
             // 
