@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "LY7Qsdnw7KQ=",
+  "dgSpecHash": "eBGZ6gClQF0=",
   "success": true,
-  "projectFilePath": "D:\\LAPTRINH\\LAPTRINHC#\\GameCaro\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro.csproj",
+  "projectFilePath": "C:\\Users\\duong\\Source\\Repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\FPTSHOP\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\duong\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

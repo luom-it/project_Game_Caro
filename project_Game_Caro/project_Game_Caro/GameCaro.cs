@@ -308,7 +308,7 @@ namespace project_Game_Caro
         private void HowToPlayToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string instructions = "Hướng dẫn chơi:\n\n" +
-                         "1. Trò chơi Caro là trò chơi trên bàn cờ 2 người chơi. Cos thể chọn chơi với máy hoặc chơi 2 người.\n" +
+                         "1. Trò chơi Caro là trò chơi trên bàn cờ 2 người chơi. Có thể chọn chơi với máy hoặc chơi 2 người.\n" +
                          "2. Mỗi người lần lượt đánh dấu của mình vào một ô trống trên bàn cờ.\n" +
                          "3. Lưu ý phải canh thời gian ở thanh bên phải. Nếu để hết giờ sẽ thua.\n" +
                          "4. Người chơi đầu tiên có 5 dấu liên tiếp theo hàng ngang, hàng dọc, hoặc đường chéo mà không bị chặn ở 2 đầu sẽ chiến thắng.";

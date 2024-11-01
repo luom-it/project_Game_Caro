@@ -128,3 +128,5 @@ D:\LAPTRINH\LAPTRINHC#\GameCaro\project_Game_Caro\project_Game_Caro\obj\Debug\ne
 D:\LAPTRINH\LAPTRINHC#\GameCaro\project_Game_Caro\project_Game_Caro\obj\Debug\net8.0-windows\project_Game_Caro.pdb
 D:\LAPTRINH\LAPTRINHC#\GameCaro\project_Game_Caro\project_Game_Caro\obj\Debug\net8.0-windows\project_Game_Caro.genruntimeconfig.cache
 D:\LAPTRINH\LAPTRINHC#\GameCaro\project_Game_Caro\project_Game_Caro\obj\Debug\net8.0-windows\ref\project_Game_Caro.dll
+C:\Users\duong\Source\Repos\project_Game_Caro\project_Game_Caro\project_Game_Caro\bin\Debug\net8.0-windows\src\lettero.png
+C:\Users\duong\Source\Repos\project_Game_Caro\project_Game_Caro\project_Game_Caro\bin\Debug\net8.0-windows\src\letterx.png
