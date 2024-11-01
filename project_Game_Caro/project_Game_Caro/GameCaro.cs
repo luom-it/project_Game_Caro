@@ -152,7 +152,29 @@ namespace project_Game_Caro
 
             if (board.PlayMode == 1)
                 socket.Send(new SocketData((int)SocketCommand.END_GAME, "", new Point()));
+            MessageBox.Show("Kết thúc trận!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        //private void Board_GameOver(object sender, EventArgs e)
+        //{
+        //    EndGame();
+
+        //    if (board.PlayMode == 1)
+        //    {
+        //        socket.Send(new SocketData((int)SocketCommand.END_GAME, "", new Point()));
+        //    }
+        //    else if (board.PlayMode == 3) // Kiểm tra nếu đang chơi với AI
+        //    {
+        //        if (board.CurrentPlayer == 1)
+        //        {
+        //            MessageBox.Show("AI đã thắng!", "Kết thúc trận", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //        }
+        //        else
+        //        {
+        //            MessageBox.Show("Bạn đã thắng!", "Kết thúc trận", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        //        }
+        //    }
+        //}
 
         private void Tm_CountDown_Tick(object sender, EventArgs e)
         {
@@ -227,14 +249,14 @@ namespace project_Game_Caro
                 socket.IsServer = true;
                 pn_GameBoard.Enabled = true;
                 socket.CreateServer();
-                MessageBox.Show("Bạn đang là Server", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Bạn đang là Server. Bạn là Player1!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
                 socket.IsServer = false;
                 pn_GameBoard.Enabled = false;
                 Listen();
-                MessageBox.Show("Kết nối thành công !!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Kết nối thành công! Bạn là Player2!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
@@ -285,7 +307,13 @@ namespace project_Game_Caro
 
         private void HowToPlayToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            string instructions = "Hướng dẫn chơi:\n\n" +
+                         "1. Trò chơi Caro là trò chơi trên bàn cờ 2 người chơi. Cos thể chọn chơi với máy hoặc chơi 2 người.\n" +
+                         "2. Mỗi người lần lượt đánh dấu của mình vào một ô trống trên bàn cờ.\n" +
+                         "3. Lưu ý phải canh thời gian ở thanh bên phải. Nếu để hết giờ sẽ thua.\n" +
+                         "4. Người chơi đầu tiên có 5 dấu liên tiếp theo hàng ngang, hàng dọc, hoặc đường chéo mà không bị chặn ở 2 đầu sẽ chiến thắng.";
 
+            MessageBox.Show(instructions, "Hướng dẫn chơi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void ContactMeToolStripMenuItem_Click(object sender, EventArgs e)
@@ -295,7 +323,11 @@ namespace project_Game_Caro
 
         private void AboutThisGameToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            string about = "Trò chơi:\n\n" +
+                   "Đây là dự án Lập trình Game Caro do nhóm 4 thực hiện trong học phần Lập trình mạng " +
+                   "do thầy Bùi Dương Thế hướng dẫn. Cảm ơn bạn đã truy cập!";
 
+            MessageBox.Show(about, "Giới thiệu về trò chơi", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
         #endregion
 
@@ -366,33 +398,37 @@ namespace project_Game_Caro
 
         private void ProcessData(SocketData data)
         {
+            // Cập nhật tên người chơi hiện tại
             PlayerName = board.ListPlayers[board.CurrentPlayer == 1 ? 0 : 1].Name;
 
             switch (data.Command)
             {
                 case (int)SocketCommand.SEND_POINT:
-                    // Có thay đổi giao diện muốn chạy ngọt phải để trong đây
+                    // Thực hiện nước đi từ đối thủ
                     this.Invoke((MethodInvoker)(() =>
                     {
                         board.OtherPlayerClicked(data.Point);
                         pn_GameBoard.Enabled = true;
 
+                        // Khởi động lại đồng hồ đếm ngược
                         pgb_CountDown.Value = 0;
                         tm_CountDown.Start();
 
+                        // Kích hoạt các chức năng Undo và Redo
                         undoToolStripMenuItem.Enabled = true;
                         redoToolStripMenuItem.Enabled = true;
-
                         btn_Undo.Enabled = true;
                         btn_Redo.Enabled = true;
                     }));
                     break;
 
                 case (int)SocketCommand.SEND_MESSAGE:
+                    // Hiển thị tin nhắn từ đối thủ
                     txt_Chat.Text = data.Message;
                     break;
 
                 case (int)SocketCommand.NEW_GAME:
+                    // Bắt đầu trò chơi mới và vô hiệu hóa bảng
                     this.Invoke((MethodInvoker)(() =>
                     {
                         NewGame();
@@ -401,6 +437,7 @@ namespace project_Game_Caro
                     break;
 
                 case (int)SocketCommand.UNDO:
+                    // Thực hiện Undo từ đối thủ
                     this.Invoke((MethodInvoker)(() =>
                     {
                         pgb_CountDown.Value = 0;
@@ -409,22 +446,25 @@ namespace project_Game_Caro
                     break;
 
                 case (int)SocketCommand.REDO:
+                    // Thực hiện Redo từ đối thủ
                     this.Invoke((MethodInvoker)(() =>
                     {
-                        // pgb_CountDown.Value = 0;
                         board.Redo();
                     }));
                     break;
 
                 case (int)SocketCommand.END_GAME:
+                    //Kết thúc trò chơi và hiển thị thông báo chiến thắng
                     this.Invoke((MethodInvoker)(() =>
                     {
                         EndGame();
                         MessageBox.Show(PlayerName + " đã chiến thắng ♥ !!!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }));
+                    
                     break;
 
                 case (int)SocketCommand.TIME_OUT:
+                    // Thông báo hết giờ và kết thúc trò chơi
                     this.Invoke((MethodInvoker)(() =>
                     {
                         EndGame();
@@ -433,15 +473,16 @@ namespace project_Game_Caro
                     break;
 
                 case (int)SocketCommand.QUIT:
+                    // Xử lý khi đối thủ bỏ trận
                     this.Invoke((MethodInvoker)(() =>
                     {
                         tm_CountDown.Stop();
                         EndGame();
 
-                        board.PlayMode = 2;
+                        board.PlayMode = 2;  // Đặt lại chế độ chơi
                         socket.CloseConnect();
 
-                        MessageBox.Show("Đối thủ đã bỏ trận", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        MessageBox.Show("Đối thủ đã bỏ trận!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }));
                     break;
 
@@ -449,8 +490,10 @@ namespace project_Game_Caro
                     break;
             }
 
+            // Lắng nghe tiếp các dữ liệu mới từ đối thủ
             Listen();
         }
+
         #endregion
 
         #endregion

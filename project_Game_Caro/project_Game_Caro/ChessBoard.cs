@@ -107,22 +107,22 @@ namespace project_Game_Caro
                 {
                     this.ListPlayers = new List<Player>()
                         {
-                        new Player("Computer", Image.FromFile(Application.StartupPath + "\\src\\black.png"),
-                                                Image.FromFile(Application.StartupPath + "\\src\\black.png")),
+                        new Player("Computer", Image.FromFile(Application.StartupPath + "\\src\\lettero.png"),
+                                                Image.FromFile(Application.StartupPath + "\\src\\lettero.png")),
 
-                        new Player("You", Image.FromFile(Application.StartupPath + "\\src\\white.png"),
-                                           Image.FromFile(Application.StartupPath + "\\src\\white.png"))
+                        new Player("You", Image.FromFile(Application.StartupPath + "\\src\\letterx.png"),
+                                           Image.FromFile(Application.StartupPath + "\\src\\letterx.png"))
                         };
                 }
                 else if (game == 2)
                 {
                     this.ListPlayers = new List<Player>()
                     {
-                    new Player("You", Image.FromFile(Application.StartupPath + "\\src\\black.png"),
-                                            Image.FromFile(Application.StartupPath + "\\src\\black.png")),
+                    new Player("Player1", Image.FromFile(Application.StartupPath + "\\src\\lettero.png"),
+                                            Image.FromFile(Application.StartupPath + "\\src\\lettero.png")),
 
-                    new Player("Player", Image.FromFile(Application.StartupPath + "\\src\\white.png"),
-                                       Image.FromFile(Application.StartupPath + "\\src\\white.png"))
+                    new Player("Player2", Image.FromFile(Application.StartupPath + "\\src\\letterx.png"),
+                                       Image.FromFile(Application.StartupPath + "\\src\\letterx.png"))
                     };
                 }
 

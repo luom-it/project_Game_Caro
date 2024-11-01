@@ -66,7 +66,7 @@ namespace project_Game_Caro
             Button leavedButton = sender as Button;
             if (leavedButton != null)
             {
-                leavedButton.ForeColor = Color.DodgerBlue; // Màu khi hover
+                leavedButton.ForeColor = Color.SkyBlue; // Màu khi hover
             }
         }
         private void cstbtnStart_MouseLeave(object sender, EventArgs e)
@@ -74,7 +74,7 @@ namespace project_Game_Caro
             Button leavedButton = sender as Button;
             if (leavedButton != null)
             {
-                leavedButton.ForeColor = Color.SkyBlue; // Màu khi hover
+                leavedButton.ForeColor = Color.RoyalBlue; // Màu khi hover
             }
         }
 

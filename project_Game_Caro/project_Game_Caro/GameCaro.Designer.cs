@@ -72,7 +72,6 @@
             contactMeToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator3 = new ToolStripSeparator();
             aboutThisGameToolStripMenuItem = new ToolStripMenuItem();
-            panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pb_Logo).BeginInit();
             panel2.SuspendLayout();
             Grb_About.SuspendLayout();
@@ -88,9 +87,9 @@
             pn_GameBoard.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             pn_GameBoard.BackColor = Color.DeepSkyBlue;
             pn_GameBoard.BorderStyle = BorderStyle.FixedSingle;
-            pn_GameBoard.Location = new Point(1, 63);
+            pn_GameBoard.Location = new Point(15, 50);
             pn_GameBoard.Name = "pn_GameBoard";
-            pn_GameBoard.Size = new Size(931, 750);
+            pn_GameBoard.Size = new Size(915, 750);
             pn_GameBoard.TabIndex = 0;
             pn_GameBoard.Paint += pn_GameBoard_Paint;
             // 
@@ -98,22 +97,21 @@
             // 
             panel1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             panel1.BackColor = Color.Transparent;
-            panel1.Controls.Add(pb_Logo);
-            panel1.Location = new Point(969, 63);
+            panel1.Location = new Point(969, 45);
             panel1.Name = "panel1";
-            panel1.Size = new Size(400, 157);
+            panel1.Size = new Size(400, 180);
             panel1.TabIndex = 1;
             // 
             // pb_Logo
             // 
             pb_Logo.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            pb_Logo.BackColor = Color.White;
+            pb_Logo.BackColor = Color.Transparent;
             pb_Logo.BackgroundImage = (Image)resources.GetObject("pb_Logo.BackgroundImage");
             pb_Logo.BackgroundImageLayout = ImageLayout.Stretch;
             pb_Logo.InitialImage = null;
-            pb_Logo.Location = new Point(-3, 0);
+            pb_Logo.Location = new Point(969, 47);
             pb_Logo.Name = "pb_Logo";
-            pb_Logo.Size = new Size(400, 157);
+            pb_Logo.Size = new Size(400, 300);
             pb_Logo.TabIndex = 0;
             pb_Logo.TabStop = false;
             // 
@@ -124,9 +122,9 @@
             panel2.Controls.Add(Grb_About);
             panel2.Controls.Add(txt_PlayerName);
             panel2.Controls.Add(pb_Avatar);
-            panel2.Location = new Point(969, 229);
+            panel2.Location = new Point(969, 360);
             panel2.Name = "panel2";
-            panel2.Size = new Size(400, 211);
+            panel2.Size = new Size(400, 150);
             panel2.TabIndex = 1;
             // 
             // Grb_About
@@ -136,9 +134,9 @@
             Grb_About.Controls.Add(panel3);
             Grb_About.Font = new Font("Arial", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
             Grb_About.ForeColor = Color.Lime;
-            Grb_About.Location = new Point(207, 0);
+            Grb_About.Location = new Point(207, 5);
             Grb_About.Name = "Grb_About";
-            Grb_About.Size = new Size(193, 180);
+            Grb_About.Size = new Size(193, 100);
             Grb_About.TabIndex = 0;
             Grb_About.TabStop = false;
             // 
@@ -163,10 +161,10 @@
             // txt_PlayerName
             // 
             txt_PlayerName.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            txt_PlayerName.BackColor = Color.SpringGreen;
+            txt_PlayerName.BackColor = Color.LimeGreen;
             txt_PlayerName.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txt_PlayerName.ForeColor = Color.DarkBlue;
-            txt_PlayerName.Location = new Point(207, 178);
+            txt_PlayerName.Location = new Point(207, 110);
             txt_PlayerName.Name = "txt_PlayerName";
             txt_PlayerName.ReadOnly = true;
             txt_PlayerName.Size = new Size(193, 30);
@@ -177,9 +175,9 @@
             // 
             pb_Avatar.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             pb_Avatar.BackgroundImageLayout = ImageLayout.Stretch;
-            pb_Avatar.Location = new Point(0, 0);
+            pb_Avatar.Location = new Point(45, 25);
             pb_Avatar.Name = "pb_Avatar";
-            pb_Avatar.Size = new Size(199, 208);
+            pb_Avatar.Size = new Size(100, 100);
             pb_Avatar.SizeMode = PictureBoxSizeMode.StretchImage;
             pb_Avatar.TabIndex = 0;
             pb_Avatar.TabStop = false;
@@ -201,9 +199,9 @@
             panel4.Controls.Add(pictureBox1);
             panel4.Controls.Add(btn_SameCom);
             panel4.Controls.Add(btn_LAN);
-            panel4.Location = new Point(969, 446);
+            panel4.Location = new Point(969, 520);
             panel4.Name = "panel4";
-            panel4.Size = new Size(400, 162);
+            panel4.Size = new Size(400, 34);
             panel4.TabIndex = 1;
             // 
             // txt_IP
@@ -223,7 +221,7 @@
             // btn_Undo
             // 
             btn_Undo.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btn_Undo.BackColor = Color.DarkOrchid;
+            btn_Undo.BackColor = Color.RoyalBlue;
             btn_Undo.Cursor = Cursors.Hand;
             btn_Undo.FlatAppearance.BorderColor = Color.Black;
             btn_Undo.FlatAppearance.BorderSize = 0;
@@ -246,13 +244,13 @@
             pgb_CountDown.ForeColor = Color.FromArgb(0, 192, 0);
             pgb_CountDown.Location = new Point(0, 2);
             pgb_CountDown.Name = "pgb_CountDown";
-            pgb_CountDown.Size = new Size(199, 37);
+            pgb_CountDown.Size = new Size(199, 30);
             pgb_CountDown.TabIndex = 2;
             // 
             // btn_Redo
             // 
             btn_Redo.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btn_Redo.BackColor = Color.DarkOrchid;
+            btn_Redo.BackColor = Color.LimeGreen;
             btn_Redo.Cursor = Cursors.Hand;
             btn_Redo.FlatAppearance.BorderColor = Color.Black;
             btn_Redo.FlatAppearance.BorderSize = 0;
@@ -271,7 +269,7 @@
             // btn_AI
             // 
             btn_AI.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btn_AI.BackColor = Color.DeepPink;
+            btn_AI.BackColor = Color.Crimson;
             btn_AI.Cursor = Cursors.Hand;
             btn_AI.FlatAppearance.BorderColor = Color.Black;
             btn_AI.FlatAppearance.BorderSize = 0;
@@ -297,11 +295,12 @@
             pictureBox1.Size = new Size(199, 74);
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
+            pictureBox1.Visible = false;
             // 
             // btn_SameCom
             // 
             btn_SameCom.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btn_SameCom.BackColor = Color.DeepPink;
+            btn_SameCom.BackColor = Color.Crimson;
             btn_SameCom.Cursor = Cursors.Help;
             btn_SameCom.FlatAppearance.BorderColor = Color.Black;
             btn_SameCom.FlatAppearance.BorderSize = 0;
@@ -320,7 +319,7 @@
             // btn_LAN
             // 
             btn_LAN.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            btn_LAN.BackColor = Color.DeepPink;
+            btn_LAN.BackColor = Color.Crimson;
             btn_LAN.Cursor = Cursors.Hand;
             btn_LAN.FlatAppearance.BorderColor = Color.Black;
             btn_LAN.FlatAppearance.BorderSize = 0;
@@ -342,12 +341,12 @@
             txt_Chat.BackColor = Color.White;
             txt_Chat.Font = new Font("Arial", 11F);
             txt_Chat.ForeColor = Color.DarkBlue;
-            txt_Chat.Location = new Point(969, 614);
+            txt_Chat.Location = new Point(969, 560);
             txt_Chat.Multiline = true;
             txt_Chat.Name = "txt_Chat";
             txt_Chat.ReadOnly = true;
             txt_Chat.ScrollBars = ScrollBars.Vertical;
-            txt_Chat.Size = new Size(400, 123);
+            txt_Chat.Size = new Size(400, 200);
             txt_Chat.TabIndex = 4;
             txt_Chat.TextChanged += txt_Chat_TextChanged;
             // 
@@ -359,7 +358,7 @@
             // 
             txt_Message.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             txt_Message.Font = new Font("Arial", 12F);
-            txt_Message.Location = new Point(969, 758);
+            txt_Message.Location = new Point(969, 769);
             txt_Message.Name = "txt_Message";
             txt_Message.Size = new Size(323, 30);
             txt_Message.TabIndex = 4;
@@ -367,7 +366,7 @@
             // btn_Send
             // 
             btn_Send.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
-            btn_Send.BackColor = Color.FromArgb(0, 0, 192);
+            btn_Send.BackColor = Color.RoyalBlue;
             btn_Send.BackgroundImageLayout = ImageLayout.Stretch;
             btn_Send.Cursor = Cursors.Hand;
             btn_Send.FlatAppearance.BorderColor = Color.Black;
@@ -375,9 +374,9 @@
             btn_Send.FlatStyle = FlatStyle.Popup;
             btn_Send.Font = new Font("Arial", 10.5F, FontStyle.Bold);
             btn_Send.ForeColor = Color.White;
-            btn_Send.Location = new Point(1304, 756);
+            btn_Send.Location = new Point(1298, 769);
             btn_Send.Name = "btn_Send";
-            btn_Send.Size = new Size(71, 37);
+            btn_Send.Size = new Size(70, 30);
             btn_Send.TabIndex = 3;
             btn_Send.Text = "Send";
             btn_Send.UseVisualStyleBackColor = false;
@@ -393,7 +392,6 @@
             menuStrip.Size = new Size(1387, 30);
             menuStrip.TabIndex = 5;
             menuStrip.Text = "menuStrip";
-            menuStrip.Visible = false;
             // 
             // menuToolStripMenuItem
             // 
@@ -483,13 +481,14 @@
             // settingsToolStripMenuItem
             // 
             settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            settingsToolStripMenuItem.Size = new Size(150, 26);
+            settingsToolStripMenuItem.Size = new Size(224, 26);
             settingsToolStripMenuItem.Text = "Settings";
+            settingsToolStripMenuItem.Visible = false;
             settingsToolStripMenuItem.Click += SettingsToolStripMenuItem_Click;
             // 
             // helpToolStripMenuItem
             // 
-            helpToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { howToPlayToolStripMenuItem, contactMeToolStripMenuItem, toolStripSeparator3, aboutThisGameToolStripMenuItem });
+            helpToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { howToPlayToolStripMenuItem, toolStripSeparator3, aboutThisGameToolStripMenuItem, contactMeToolStripMenuItem });
             helpToolStripMenuItem.Name = "helpToolStripMenuItem";
             helpToolStripMenuItem.Size = new Size(55, 24);
             helpToolStripMenuItem.Text = "Help";
@@ -507,6 +506,7 @@
             contactMeToolStripMenuItem.Name = "contactMeToolStripMenuItem";
             contactMeToolStripMenuItem.Size = new Size(202, 26);
             contactMeToolStripMenuItem.Text = "Contact me";
+            contactMeToolStripMenuItem.Visible = false;
             contactMeToolStripMenuItem.Click += ContactMeToolStripMenuItem_Click;
             // 
             // toolStripSeparator3
@@ -526,9 +526,10 @@
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.PowderBlue;
-            BackgroundImage = Properties.Resources.co;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1387, 889);
+            Controls.Add(pb_Logo);
             Controls.Add(txt_Chat);
             Controls.Add(txt_Message);
             Controls.Add(panel4);
@@ -544,7 +545,6 @@
             FormClosing += GameCaro_FormClosing;
             Load += GameCaro_Load;
             Shown += GameCaro_Shown;
-            panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)pb_Logo).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
