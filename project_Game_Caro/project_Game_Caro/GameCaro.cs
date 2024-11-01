@@ -92,6 +92,8 @@ namespace project_Game_Caro
             else if (game == 2)
             {
                 Btn_LAN_Click(this, EventArgs.Empty);
+            }else if(game == 3){
+                Btn_SameCom_Click(this, EventArgs.Empty);
             }
 
         }

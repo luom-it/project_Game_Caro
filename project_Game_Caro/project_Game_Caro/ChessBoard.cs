@@ -125,9 +125,20 @@ namespace project_Game_Caro
                                        Image.FromFile(Application.StartupPath + "\\src\\letterx.png"))
                     };
                 }
+                else if (game == 3)
+                {
+                    this.ListPlayers = new List<Player>()
+                        {
+                        new Player("Player1", Image.FromFile(Application.StartupPath + "\\src\\lettero.png"),
+                                                Image.FromFile(Application.StartupPath + "\\src\\lettero.png")),
 
-                
-            }
+                        new Player("Player2", Image.FromFile(Application.StartupPath + "\\src\\letterx.png"),
+                                           Image.FromFile(Application.StartupPath + "\\src\\letterx.png"))
+                        };
+                }
+
+
+        }
             #endregion
 
             #region Methods       

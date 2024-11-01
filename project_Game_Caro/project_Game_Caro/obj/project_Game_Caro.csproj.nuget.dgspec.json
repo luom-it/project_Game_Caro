@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Windows\\Source\\Repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro.csproj": {}
+    "C:\\Users\\CYBER\\Source\\Repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Windows\\Source\\Repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro.csproj": {
+    "C:\\Users\\CYBER\\Source\\Repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Windows\\Source\\Repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro.csproj",
+        "projectUniqueName": "C:\\Users\\CYBER\\Source\\Repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro.csproj",
         "projectName": "project_Game_Caro",
-        "projectPath": "C:\\Users\\Windows\\Source\\Repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro.csproj",
-        "packagesPath": "C:\\Users\\Windows\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Windows\\Source\\Repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\obj\\",
+        "projectPath": "C:\\Users\\CYBER\\Source\\Repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro.csproj",
+        "packagesPath": "C:\\Users\\CYBER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CYBER\\Source\\Repos\\project_Game_Caro\\project_Game_Caro\\project_Game_Caro\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Windows\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CYBER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -70,7 +70,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
