@@ -402,7 +402,8 @@ namespace project_Game_Caro
                 if (CurrCol == 0 || CurrCol + Count == Constance.nCols)
                     return true;
 
-                if (MatrixPositions[CurrRow][CurrCol - 1].BackgroundImage == null || MatrixPositions[CurrRow][CurrCol + Count].BackgroundImage == null)
+                if (MatrixPositions[CurrRow][CurrCol - 1].BackgroundImage == null 
+                    || MatrixPositions[CurrRow][CurrCol + Count].BackgroundImage == null)
                 {
                     for (Count = 0; Count < NumCellsToWin; Count++)
                         MatrixPositions[CurrRow][CurrCol + Count].BackColor = Color.Lime;
@@ -428,7 +429,8 @@ namespace project_Game_Caro
                 if (CurrRow == 0 || CurrRow + Count == Constance.nRows)
                     return true;
 
-                if (MatrixPositions[CurrRow - 1][CurrCol].BackgroundImage == null || MatrixPositions[CurrRow + Count][CurrCol].BackgroundImage == null)
+                if (MatrixPositions[CurrRow - 1][CurrCol].BackgroundImage == null 
+                    || MatrixPositions[CurrRow + Count][CurrCol].BackgroundImage == null)
                 {
                     for (Count = 0; Count < NumCellsToWin; Count++)
                         MatrixPositions[CurrRow + Count][CurrCol].BackColor = Color.Lime;
@@ -451,10 +453,12 @@ namespace project_Game_Caro
                         return false;
 
                 // Xét chặn 2 đầu
-                if (CurrRow == 0 || CurrRow + Count == Constance.nRows || CurrCol == 0 || CurrCol + Count == Constance.nCols)
+                if (CurrRow == 0 || CurrRow + Count == Constance.nRows 
+                    || CurrCol == 0 || CurrCol + Count == Constance.nCols)
                     return true;
 
-                if (MatrixPositions[CurrRow - 1][CurrCol - 1].BackgroundImage == null || MatrixPositions[CurrRow + Count][CurrCol + Count].BackgroundImage == null)
+                if (MatrixPositions[CurrRow - 1][CurrCol - 1].BackgroundImage == null 
+                    || MatrixPositions[CurrRow + Count][CurrCol + Count].BackgroundImage == null)
                 {
                     for (Count = 0; Count < NumCellsToWin; Count++)
                         MatrixPositions[CurrRow + Count][CurrCol + Count].BackColor = Color.Lime;
@@ -477,10 +481,12 @@ namespace project_Game_Caro
                         return false;
 
                 // Xét chặn 2 đầu
-                if (CurrRow == 4 || CurrRow == Constance.nRows - 1 || CurrRow == 0 || CurrRow + Count == Constance.nRows)
+                if (CurrRow == 4 || CurrRow == Constance.nRows - 1 
+                    || CurrRow == 0 || CurrRow + Count == Constance.nRows)
                     return true;
 
-                if (MatrixPositions[CurrRow + 1][CurrCol - 1].BackgroundImage == null || MatrixPositions[CurrRow - Count][CurrCol + Count].BackgroundImage == null)
+                if (MatrixPositions[CurrRow + 1][CurrCol - 1].BackgroundImage == null 
+                    || MatrixPositions[CurrRow - Count][CurrCol + Count].BackgroundImage == null)
                 {
                     for (Count = 0; Count < NumCellsToWin; Count++)
                         MatrixPositions[CurrRow - Count][CurrCol + Count].BackColor = Color.Lime;

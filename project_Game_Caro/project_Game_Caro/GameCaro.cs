@@ -365,7 +365,7 @@ namespace project_Game_Caro
 
             PlayerName = board.ListPlayers[socket.IsServer ? 0 : 1].Name;
             txt_Chat.Text += "- " + PlayerName + ": " + txt_Message.Text + "\r\n";
-
+            txt_Message.Text = "";
             socket.Send(new SocketData((int)SocketCommand.SEND_MESSAGE, txt_Chat.Text, new Point()));
             Listen();
         }
