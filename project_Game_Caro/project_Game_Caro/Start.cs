@@ -46,10 +46,17 @@ namespace project_Game_Caro
 
         private void CstbtnPlay2_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            GameCaro gameCaro = new GameCaro(2);
-            DialogResult result = gameCaro.ShowDialog();  // Wait until GameCaro form is closed
-            this.Show();  // Show the main form after GameCaro is closed
+            using (InputIP inputIPForm = new InputIP())
+            {
+                if (inputIPForm.ShowDialog() == DialogResult.OK)
+                {
+                    string ipAddress = inputIPForm.IPAddress;
+                    this.Hide();
+                    GameCaro gameCaro = new GameCaro(2, ipAddress); // Truyền IP vào game
+                    DialogResult result = gameCaro.ShowDialog();
+                    this.Show();
+                }
+            }
         }
         private void cstbtnPlaySameComputer_Click(object sender, EventArgs e)
         {

@@ -4,6 +4,9 @@
     <Compile Update="GameCaro.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="InputIP.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Layout\CustomButton.cs">
       <SubType>Component</SubType>
     </Compile>

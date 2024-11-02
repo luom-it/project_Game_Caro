@@ -69,9 +69,9 @@
             settingsToolStripMenuItem = new ToolStripMenuItem();
             helpToolStripMenuItem = new ToolStripMenuItem();
             howToPlayToolStripMenuItem = new ToolStripMenuItem();
-            contactMeToolStripMenuItem = new ToolStripMenuItem();
             toolStripSeparator3 = new ToolStripSeparator();
             aboutThisGameToolStripMenuItem = new ToolStripMenuItem();
+            contactMeToolStripMenuItem = new ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)pb_Logo).BeginInit();
             panel2.SuspendLayout();
             Grb_About.SuspendLayout();
@@ -215,7 +215,6 @@
             txt_IP.Name = "txt_IP";
             txt_IP.Size = new Size(193, 30);
             txt_IP.TabIndex = 1;
-            txt_IP.Text = "127.0.0.1";
             txt_IP.TextAlign = HorizontalAlignment.Center;
             // 
             // btn_Undo
@@ -481,7 +480,7 @@
             // settingsToolStripMenuItem
             // 
             settingsToolStripMenuItem.Name = "settingsToolStripMenuItem";
-            settingsToolStripMenuItem.Size = new Size(224, 26);
+            settingsToolStripMenuItem.Size = new Size(150, 26);
             settingsToolStripMenuItem.Text = "Settings";
             settingsToolStripMenuItem.Visible = false;
             settingsToolStripMenuItem.Click += SettingsToolStripMenuItem_Click;
@@ -501,14 +500,6 @@
             howToPlayToolStripMenuItem.Text = "How to play";
             howToPlayToolStripMenuItem.Click += HowToPlayToolStripMenuItem_Click;
             // 
-            // contactMeToolStripMenuItem
-            // 
-            contactMeToolStripMenuItem.Name = "contactMeToolStripMenuItem";
-            contactMeToolStripMenuItem.Size = new Size(202, 26);
-            contactMeToolStripMenuItem.Text = "Contact me";
-            contactMeToolStripMenuItem.Visible = false;
-            contactMeToolStripMenuItem.Click += ContactMeToolStripMenuItem_Click;
-            // 
             // toolStripSeparator3
             // 
             toolStripSeparator3.Name = "toolStripSeparator3";
@@ -520,6 +511,14 @@
             aboutThisGameToolStripMenuItem.Size = new Size(202, 26);
             aboutThisGameToolStripMenuItem.Text = "About this game";
             aboutThisGameToolStripMenuItem.Click += AboutThisGameToolStripMenuItem_Click;
+            // 
+            // contactMeToolStripMenuItem
+            // 
+            contactMeToolStripMenuItem.Name = "contactMeToolStripMenuItem";
+            contactMeToolStripMenuItem.Size = new Size(202, 26);
+            contactMeToolStripMenuItem.Text = "Contact me";
+            contactMeToolStripMenuItem.Visible = false;
+            contactMeToolStripMenuItem.Click += ContactMeToolStripMenuItem_Click;
             // 
             // GameCaro
             // 

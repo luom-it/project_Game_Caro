@@ -154,3 +154,7 @@ C:\Users\CYBER\Source\Repos\project_Game_Caro\project_Game_Caro\project_Game_Car
 C:\Users\CYBER\Source\Repos\project_Game_Caro\project_Game_Caro\project_Game_Caro\obj\Debug\net8.0-windows\project_Game_Caro.pdb
 C:\Users\CYBER\Source\Repos\project_Game_Caro\project_Game_Caro\project_Game_Caro\obj\Debug\net8.0-windows\project_Game_Caro.genruntimeconfig.cache
 C:\Users\CYBER\Source\Repos\project_Game_Caro\project_Game_Caro\project_Game_Caro\obj\Debug\net8.0-windows\ref\project_Game_Caro.dll
+C:\Users\NhiNguyen\source\repos\project_Game_Caro\project_Game_Caro\project_Game_Caro\bin\Debug\net8.0-windows\src\lettero.png
+C:\Users\NhiNguyen\source\repos\project_Game_Caro\project_Game_Caro\project_Game_Caro\bin\Debug\net8.0-windows\src\letterx.png
+C:\Users\NhiNguyen\source\repos\project_Game_Caro\project_Game_Caro\project_Game_Caro\obj\Debug\net8.0-windows\project_Game_Caro.InputIP.resources
+C:\Users\NhiNguyen\source\repos\project_Game_Caro\project_Game_Caro\project_Game_Caro\obj\Debug\net8.0-windows\project_Game_Caro.sourcelink.json

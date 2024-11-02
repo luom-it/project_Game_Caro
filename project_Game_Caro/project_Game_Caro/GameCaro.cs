@@ -16,16 +16,17 @@ namespace project_Game_Caro
         #region Properties
         GameBoard board;
         SocketManager socket;
-
+        string ipAddress;
         string PlayerName;
         int game;
 
 
-        public GameCaro(int game)
+        public GameCaro(int game, string ipAddress = "")
         {
             InitializeComponent();
             Control.CheckForIllegalCrossThreadCalls = false;
             this.game = game;
+            this.ipAddress = ipAddress;
             board = new GameBoard(pn_GameBoard, txt_PlayerName, pb_Avatar, game);
             board.PlayerClicked += Board_PlayerClicked;
             board.GameOver += Board_GameOver;
@@ -38,15 +39,7 @@ namespace project_Game_Caro
 
             txt_Chat.Text = "";
 
-            //NewGame();
-            //if (game == 1)
-            //{
-            //    btn_AI.Click += Btn_AI_Click;
-            //}
-            //else if (game == 2) 
-            //{
-            //    btn_LAN.Click += Btn_LAN_Click;
-            //}
+            
 
         }
         #endregion
@@ -244,7 +237,7 @@ namespace project_Game_Caro
             board.PlayMode = 1;
             NewGame();
 
-            socket.IP = txt_IP.Text;
+            socket.IP = ipAddress;
 
             if (!socket.ConnectServer())
             {
